@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 20px;
+}
+.logo{
+    color: darkgoldenrod;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 370px;
+
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+
+}
+.logo span{
+   margin-left: 40px;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+     margin-right: 700px;
+}
+.nav-links li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+   
+    transition: 0.3s;
+}
+.nav-links li a:hover{
+    color: darkgoldenrod;
+    transform: translateY(-3px);
+}
+.hero{
+    min-height: 65vh;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 8%;
+    background: url(hero.png);
+}
+.hero-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 630px;
+}
+.hero-content{
+    max-height: 600px;
+}
+.hero-content h2{
+    color: darkgoldenrod;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 49px;
+    font-weight: 700;
+}
+.hero-content p{
+    color: white;
+    font-size: 23px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.hero-content button{
+    background: darkgoldenrod;
+    font-size: 20px;
+    border: none;
+    padding: 10px ;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.hero-content button:hover{
+    color: darkgoldenrod;
+    background-color: black;
+    transform: translateY(-7px);
+}
